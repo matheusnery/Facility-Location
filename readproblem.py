@@ -1,16 +1,18 @@
+#Facilidades
 Faci = 'A', 'B', 'C', 'D'
+#Clientes
 Client  = range(1, 10)
 
-# Costs for opening a facility
+#custo para abrir a facilidade
 FixCost = dict(A=500, B=600, C=700, D=800)
 
-# Capacity of a facility at each site
+# Capacidade de uma instalação em cada local
 Capacity = dict(A=40, B=55, C=73, D=90)
 
-# Demand from each customer
+#Demanda de cada cliente
 Demand = {1:10, 2:14, 3:17, 4:8, 5:9, 6:12, 7:11, 8:15, 9:16}
 
-# Transportation cost from each facility to each customer
+# custo de transporte de cada facilidade para cada cliente 
 Transportation = dict(
   A = {1:55, 2: 4, 3:17, 4:33, 5:47, 6:98, 7:19, 8:10, 9: 6},
   B = {1:42, 2:12, 3: 4, 4:23, 5:16, 6:78, 7:47, 8: 9, 9:82}, 
